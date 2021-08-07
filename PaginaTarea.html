@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link rel="PaginaTarea.html" />
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <title> DesarrolloWeb</title>
+</head>
+
+<body>
+    <div>
+        <img src="html.png">
+        <h1> DesarrolloWeb</h1>
+        <h2>Introduccion a HTML5</h2>
+    </div>
+
+    <nav id="menu">
+        <ul>
+            <li><a href="PaginaTarea.html" target="_blank" title="Inicio">Inicio</a></li>
+            <li><a href="Elementos.html" target="_blank" title="Elementos">Elementos</a></li>
+            <li><a href="Atributos.html" target="_blank" title="Atributos">Atributos</a></li>
+        </ul>
+    </nav>
+    <br>
+    <section>
+
+        <hr>
+        <h3>Definicion:</h3>
+        <p>(HyperText Markup Language, versión 5) es la quinta revisión del lenguaje HTML. Esta nueva versión (aún en desarrollo), y en conjunto con CSS3, define los nuevos estándares de desarrollo web, rediseñando el código para resolver problemas y actualizándolo
+            así a nuevas necesidades. No se limita solo a crear nuevas etiquetas o atributos, sino que incorpora muchas características nuevas y proporciona una plataforma de desarrollo de complejas aplicaciones web (mediante losAPIs).</p>
+
+        <hr>
+        <h3>Aplicacion:</h3>
+        <p>HTML proporciona un marco en el que los desarrolladores pueden poner su código y una aplicación lo convierte en algo que podemos ver y con lo que podemos interactuar. CSS permite diseñar como se verán los bits individuales de código una vez que
+            se muestren en pantalla y JavaScript es lo que hace de todo esto algo interactivo, permitiendo hacer casi cualquier cosa.</p>
+
+        <hr>
+        <h3>Versiones:</h3>
+        <p>HTML 2.0 En 1995 se publica el estándar HTML 2.0. A pesar de su nombre, HTML 2.0 es el primer estándar oficial de HTML, es decir, el HTML 1.0 no existió como estándar. HTML 2.0 no soportaba tablas. Se simplificaba al máximo la estructura del documento
+            para agilizar su edición, donde la declaración explícita de los elementos body, html y head es opcional.
+        </p>
+
+        <p>HTML 3.2 La versión HTML 3.2 se publicó en 1997 y es la primera recomendación de HTML publicada por el W3C (Consorcio internacional). Esta revisión incorporó los últimos avances de las páginas web desarrolladas hasta 1996, como applets de Java
+            y texto que fluye alrededor de las imágenes.
+
+        </p>
+        <p>HTML 4.01 La última especificación oficial de HTML se publicó en diciembre de 1999 y se denomina HTML 4.01. Desde la publicación de HTML 4.01, el W3C se centró en el desarrollo del estándar XHTML. Por este motivo, en el año 2004, las empresas
+            Apple, Mozilla y Opera mostraron su preocupación por la falta de interés del W3C en HTML y decidieron organizarse en una nueva asociación llamada WHATWG (Web Hypertext Application Technology Working Group) que comenzó el desarrollo del HTML
+            5, cuyo primer borrador oficial se publicó en enero de 2008. Debido a la fuerza de las empresas que forman el grupo WHATWG y a la publicación de los borradores de HTML 5.0, en marzo de 2007 el W3C decidió retomar la actividad estandarizadora
+            de HTML, dentro del cual decidió integrar el XHTML.
+        </p>
+        <p>HTML 5, HTML 5.1, HTML 5.2 El consorcio internacional W3C, después de una evolución de varios años, liberó el HTML 5 como estándar oficial a finales de octubre de 2014. HTML 5 incorpora nuevos elementos no contemplandos en HTML 4.01. Hay diversos
+            cambios respecto a HTML 4.01. Hay nuevas etiquetas, se introduce la posibilidad de introducir audio y video de forma directa en la web sin necesidad de plugins o complementos en los navegadores, y otras novedades. El W3C irá lanzando progresivamente
+            nuevas evoluciones del HTML 5.</p>
+
+
+        <form action="">
+            <fieldset>
+                <legend>Datos Personales</legend>
+
+                <div class="row2cols">
+                    <label for="No.ID">ID</label>
+                    <input type="number" id="id" name="id" placeholder="Documento de Identificacion" required>
+                </div>
+
+                <div class="row2cols">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingrese nombre completo" required>
+                </div>
+
+                <div class="row2cols">
+                    <label for="Direccion">Direccion</label>
+                    <input type="text" id="Direccion" name="Direccion" placeholder="Ingrese su direccion" required>
+                </div>
+
+                <div class="row2cols">
+                    <label for="Pais">Pais</label>
+                    <input type="text" id="pais" name="pais" placeholder="Ingrese su pais" required>
+                </div>
+
+                <div class="row2cols">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Ingrese una direccion de correo valida" required>
+                </div>
+
+                <div class="row2cols">
+                    <label for="Observaciones">Observaciones</label>
+                    <textarea id="Observaciones" name="Observaciones" rows="10" required minlength="25"></textarea>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Datos Laborales</legend>
+
+                <div class="row2cols">
+                    <label for="Empresa">Empresa</label>
+                    <input type="text" id="Empresa" name="Empresa" placeholder="Ingrese Nombre de la Empresa" required>
+                </div>
+
+                <div class="row2cols">
+                    <label for="Sueldo">Sueldo</label>
+                    <input type="number" id="Sueldo" name="Sueldo" placeholder="Ingrese el Sueldo" required>
+                </div>
+
+                <div class="row2cols">
+                    <label for="Bonificacion">Bonificacion</label>
+                    <input type="number" id="Bonificacion" name="Bonificacion" placeholder="Bonificacion" required>
+                </div>
+
+                <div class="row2cols">
+                    <label for="OtherBoni">Otras Bonificaciones</label>
+                    <input type="number" id="OtherBoni" name="OtherBoni" placeholder="Otras Bonificaciones" required>
+                </div>
+
+                <div class="row2cols">
+                    <div></div>
+                    <div>
+                        <input type="submit" value="Enviar Datos">
+                    </div>
+                </div>
+
+            </fieldset>
+        </form>
+    </section>
+
+
+
+    <aside>
+        <hr>
+        <h id="asidetitle"><u>Anexos</u></h>
+        <hr>
+        <ul>
+            <li><a href="https://desarrolloweb.com/articulos/que-es-html.html#:~:text=HTML%20es%20el%20lenguaje%20con,%2C%20listas%2C%20v%C3%ADdeos%2C%20etc.">Que es HTML5</a></li>
+            <li><a href="https://irfeyal.wordpress.com/aplicacion-de-html/">Aplicacion de HTML5</a></li>
+            <li><a href="https://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=444:icuales-son-las-versiones-de-html-diferencias-entre-html-4-y-html-5-significado-de-strict-cu00706b&catid=69&Itemid=192">Versiones</a></li>
+            <li><a href="http://www.edu4java.com/es/web/html5-atributos-globales.html">Artributos de HTML</a></li>
+            <li><a href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos">Elementos de HTML</a></li>
+        </ul>
+    </aside>
+</body>
+
+</html>

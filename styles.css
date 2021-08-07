@@ -1,0 +1,115 @@
+h1 {
+    text-align: center;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+#asidetitle {
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+aside {
+    width: 15%;
+    height: 700px;
+    float: left;
+    color: black;
+    overflow: hidden;
+    margin-left: 20px;
+    padding: 1%;
+}
+
+nav {
+    display: inline-block;
+    width: 740px;
+    text-align: left;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a {
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+section {
+    width: 80%;
+    background: white;
+    float: left;
+    height: 600px;
+}
+
+table {
+    text-align: center;
+    float: center;
+    width: 80%;
+    border: 1px solid #000;
+}
+
+th,
+td {
+    width: 25%;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+}
+
+caption {
+    padding: 0.3em;
+    color: #fff;
+    background: #000;
+}
+
+th {
+    background: #eee;
+}
+
+body {
+    background-color: aqua;
+}
+
+.row2cols {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.row2cols label {
+    background-color: black;
+    color: blanchedalmond;
+    padding: 10px;
+    text-align: left;
+}
+
+.row2cols input,
+.row2cols textarea {
+    background-color: azure;
+}
